@@ -1,0 +1,32 @@
+
+/* padrão */
+.esquerda{float: left;}
+.direita{float: right; text-align: right;}
+.centro{text-align: center;}
+.container{width: 100%; min-width: 340px; max-width:1280px; margin: auto;}
+/*Grid*/
+.col-1{width: 8.333%;}
+.col-2{width: 16.666%;}
+.col-3{width: 24.99%;}
+.col-4{width: 33.32%;}
+.col-5{width: 41.665%;}
+.col-6{width: 50%;}
+.col-7{width: 58.331%;}
+.col-8{width: calc(8.333% * 8);/*66.664%*/}
+.col-9{width: calc(8.333% * 9);/*74.997%;*/}
+.col-10{width: calc(8.333% * 10);/*83.33%;*/}
+.col-11{width: calc(8.333% * 11);/*91.663%;*/}
+.col-12{width: calc(8.333% * 12);/*100%*/}
+
+
+.row::after{ /*equivalente ou clearfix*/
+    content: "";clear: both;display: table;}
+/* Paddings */
+.p-1{padding: 5px;}
+.p-2{padding: 10px;}
+.p-3{padding: 15px;}
+.p-4{padding: 20px;}
+.p-5{padding: 25px;}
+.p-6{padding: 30px;}
+
+.respansive{width: 100%;}

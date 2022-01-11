@@ -1,0 +1,14 @@
+/*logo*/
+nav{ background-color: #2e5566; width: 100%; height: auto;	
+	float: left; position: sticky; top: 0;}
+/*barra de navegação*/
+button{	margin: 5px;float: right;padding: 3px 0;padding-left: 15px;
+	color: #FF4500;	text-transform: uppercase;}
+button:hover{background-color:#FF4500 ;	color: #eee;}
+.buscar{margin: 0 5px;}
+.menu{text-align: center;}
+.menu ul{width: 100%;display: block;}
+.menu ul li{line-height: 30px;display: inline-block;font-size: 18px;padding-top: 5px;padding-right: 15px;}
+.menu ul li a{text-decoration: none;color:#eee;	list-style: nome;padding:5px 5px;}
+.menu ul li a:hover{background-color:#eee;color:#2e5566;border-radius: 15px;}
+/*de 65 linhas pra 15*/

@@ -1,0 +1,24 @@
+.esquerda{
+    background-color:rgb(148, 198, 231);
+    height: 100vh;/*usado pra ocupar 100% da tela sem se 
+    importar com o volume */}
+.esquerda1{ 
+    margin-top: 100px;}
+.esquerda1 p{
+    color: darkgreen;
+    font-size: 35px;
+    text-align: center;}
+.direita{
+    background-color: #eee;
+    height: 100vh;}
+form{
+   margin: auto 18%;
+   margin-top: 100px;}
+.tex_a_c{
+    padding: 10px;
+    color: #FF4500;
+    font-size: 35px;}
+.em, .senha, .texc{color: #FF4500;font-size: 25px;}
+.p-1 a{padding-left: 60px ; color:  #FF4500;}
+.em2, .senha2{border-radius: 5px;text-align: center;font-size: 22px;}    
+.rodape{background-color: rgb(130, 245, 245);float: left; text-align: center;height: 20px;}
